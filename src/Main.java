@@ -30,7 +30,7 @@ public class Main {
         System.out.println(" ");
 
         var friend = 19;
-        System.out.println("Добавидли новую переменную:");
+        System.out.println("Добавили новую переменную:");
         System.out.println("Переменная friend = " + friend);
         friend = friend + 2;
         System.out.println("Увеличили значение переменной friend на 2 = " + friend);
@@ -39,7 +39,7 @@ public class Main {
         System.out.println(" ");
 
         var frog = 3.5;
-        System.out.println("Добавидли новую переменную:");
+        System.out.println("Добавили новую переменную:");
         System.out.println("Переменная frog = " + frog);
         frog = frog * 10;
         System.out.println("Переменная frog * 10 = " + frog);
@@ -47,6 +47,18 @@ public class Main {
         System.out.println("Переменная frog / 3.5 = " + frog);
         frog = frog + 4;
         System.out.println("Переменная frog + 4 = " + frog);
+        System.out.println(" ");
+
+        var firstBoxer = 78.2;
+        var secondBoxer = 82.7;
+        System.out.println("Добавили новые переменные:");
+        System.out.println("Масса первого боксера = " + firstBoxer + " кг" );
+        System.out.println("Масса второго боксера = " + secondBoxer + " кг" );
+        var totalWeight = firstBoxer + secondBoxer;
+        System.out.println("Масса обоих боксеров = " + totalWeight + " кг" );
+        var differenceWeight = secondBoxer - firstBoxer;
+        System.out.println("Разница в массе боксеров = " + differenceWeight + " кг" );
+        System.out.println(" ");
 
     }
 }
