@@ -17,7 +17,14 @@ public class Main {
         System.out.println("Переменная cat = "+ cat +".");
         System.out.println("Переменная paper = "+ paper +".");
         System.out.println(" ");
-
+        dog = dog - 3.5;
+        cat = cat - 1.6;
+        paper = paper - 7639;
+        System.out.println("Из переменных вычтены значения:");
+        System.out.println("Из dog - 3.5 = "+ dog +".");
+        System.out.println("Из cat - 1.6 = "+ cat +".");
+        System.out.println("Из paper - 7639 = "+ paper +".");
+        System.out.println(" ");
 
     }
 }
