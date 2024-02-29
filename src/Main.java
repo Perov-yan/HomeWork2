@@ -60,5 +60,14 @@ public class Main {
         System.out.println("Разница в массе боксеров = " + differenceWeight + " кг" );
         System.out.println(" ");
 
+        var x = 11;
+        var y = 2;
+        System.out.println("Добавили новые переменные:");
+        System.out.println("x = " + x + " кг");
+        System.out.println("y = " + y + " кг");
+        var result = x % y;
+        System.out.println("остаток деления = " + result + " кг");
+        System.out.println(" ");
+
     }
 }
