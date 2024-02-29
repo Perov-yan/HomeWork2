@@ -25,6 +25,14 @@ public class Main {
         System.out.println("Из cat - 1.6 = "+ cat +".");
         System.out.println("Из paper - 7639 = "+ paper +".");
         System.out.println(" ");
+        var friend = 19;
+        System.out.println("Добавидли новую переменную:");
+        System.out.println("Переменная friend = " + friend);
+        friend = friend + 2;
+        System.out.println("Увеличили значение переменной friend на 2 = " + friend);
+        friend = friend / 7;
+        System.out.println("Поделили переменную friend на 7 = " +  friend);
+        System.out.println(" ");
 
     }
 }
