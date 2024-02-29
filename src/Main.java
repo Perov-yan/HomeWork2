@@ -69,5 +69,15 @@ public class Main {
         System.out.println("остаток деления = " + result + " кг");
         System.out.println(" ");
 
+        var hoursTotal = 640;
+        var workingHours = 8;
+        System.out.println("Добавили новые переменные:");
+        System.out.println("Рабочих часов всего "+ hoursTotal);
+        System.out.println("Кажыдй сотрудник посвящает работе по " + workingHours + " часов");
+        var totalEmployees = hoursTotal / workingHours;
+        System.out.println("Всего работников в компании - "+ totalEmployees + " человек");
+        totalEmployees = totalEmployees + 94;
+        hoursTotal = workingHours * totalEmployees;
+        System.out.println("сли в компании работает  "+ totalEmployees + " человек, то всего "+ hoursTotal + " часов работы может быть поделено между сотрудниками");
     }
 }
